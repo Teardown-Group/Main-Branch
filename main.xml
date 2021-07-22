@@ -15,7 +15,7 @@
 	<group id_="865848960" open_="true" name="scene" pos="0.0 0.0 -30.5">
 		<water id_="1821094400" pos="0.0 2.4 0.0"/>
 		<voxbox id_="1281503616" name="pierfloor" pos="-19.7 -19.8 -17.8" rot="0.0 0.0 0.0" size="381 256 636" color="0.34 0.34 0.34"/>
-		<voxbox id_="1092617344" name="gazebo" pos="-7.5 6.0 21.3" rot="0.0 0.0 0.0" size="92 3 92" color="0.0 0 1.0"/>
+		<voxbox id_="1092617344" name="gazebo" pos="-7.7 6.0 19.3" rot="0.0 0.0 0.0" size="111 3 111" color="0.0 0 1.0"/>
 		<voxbox id_="1408126848" name="fence" pos="-19.7 5.8 -17.8" rot="0.0 0.0 0.0" size="381 10 3" color="0.0 0 1.0"/>
 		<voxbox id_="2097476608" name="pierfloor" pos="-9.6 -19.6 -3.8" rot="0.0 0.0 0.0" size="256 256 370" color="0.34 0.28 0.22"/>
 		<instance id_="2009718528" pos="10.1 5.7 -13.7" rot="0.0 90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
@@ -41,6 +41,8 @@
 			<voxbox id_="178006640" name="carmeasurement" pos="-13.3 0.0 -4.60001" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
 			<voxbox id_="772323328" name="playersize" pos="-6.9 0.3 12.9" rot="0.0 0.0 0.0" size="12 20 4" color="0.0 1.0 0"/>
 			<voxbox id_="548700864" name="carmeasurement" pos="14.7 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="24 13 20" color="0.96 1.0 0.0"/>
+			<instance id_="1398820224" name="vanmeasurement" pos="7.1 -0.1 16.0" rot="0.0 90.0 0.0" file="MOD/salooncar/van.xml"/>
+			<instance id_="1841673984" name="vanmeasurement" pos="12.7 -0.1 16.0" rot="0.0 90.0 0.0" file="MOD/salooncar/van.xml"/>
 		</group>
 		<voxbox id_="1018229440" pos="0.0 6.0 32.6" rot="0.0 0.0 0.0" size="5 22 3"/>
 	</group>
