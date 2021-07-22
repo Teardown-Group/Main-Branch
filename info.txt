@@ -1,3 +1,0 @@
-name = irish
-author = guess
-description = idk
