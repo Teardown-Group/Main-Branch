@@ -4,7 +4,7 @@
 		<script id_="1776592768" file="sandbox.lua"/>
 	</group>
 	<group id_="807714944" open_="true" name="default">
-		<spawnpoint id_="898225728" pos="-9.1 7.2 -1.0" rot="0.0 180.0 0.0"/>
+		<spawnpoint id_="898225728" pos="-9.1 7.2 1.2" rot="0.0 180.0 0.0"/>
 		<boundary id_="899143232">
 			<vertex pos="-100.0 -100.0"/>
 			<vertex pos="100.0 -100.0"/>
