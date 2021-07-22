@@ -4,7 +4,7 @@
 		<script id_="1776592768" file="sandbox.lua"/>
 	</group>
 	<group id_="807714944" open_="true" name="default">
-		<spawnpoint id_="898225728" pos="-9.1 7.2 1.2" rot="0.0 180.0 0.0"/>
+		<spawnpoint id_="898225728" pos="-7.1 7.2 1.2" rot="0.0 180.0 0.0"/>
 		<boundary id_="899143232">
 			<vertex pos="-100.0 -100.0"/>
 			<vertex pos="100.0 -100.0"/>
@@ -14,12 +14,38 @@
 	</group>
 	<group id_="865848960" open_="true" name="scene" pos="0.0 0.0 -30.5">
 		<water id_="1821094400" pos="0.0 2.4 0.0"/>
-		<voxbox id_="2097476608" name="pierfloor" pos="-19.7 -19.4 8.6" rot="0.0 0.0 0.0" size="536 256 247" color="0.34 0.28 0.22"/>
-		<voxbox id_="2044651392" name="playersize" pos="-10.0 6.2 28.7" rot="0.0 0.0 0.0" size="12 20 4" color="0.57 1.0 0.0"/>
-		<voxbox id_="1281503616" name="pierfloor" pos="-19.7 -19.8 32.8" rot="0.0 0.0 0.0" size="536 256 130" color="0.34 0.34 0.34"/>
-		<voxbox id_="1092617344" name="gazebo" pos="-10.1 6.2 18.5" rot="0.0 0.0 0.0" size="92 3 92" color="0.0 0.64 1.0"/>
-		<voxbox id_="1408126848" name="fence" pos="-19.7 6.2 8.6" rot="0.0 0.0 0.0" size="536 10 3" color="0.0 0.64 1.0"/>
+		<voxbox id_="1281503616" name="pierfloor" pos="-19.7 -19.8 -17.8" rot="0.0 0.0 0.0" size="381 256 636" color="0.34 0.34 0.34"/>
+		<voxbox id_="1092617344" name="gazebo" pos="-7.5 6.0 21.3" rot="0.0 0.0 0.0" size="92 3 92" color="0.0 0 1.0"/>
+		<voxbox id_="1408126848" name="fence" pos="-19.7 5.8 -17.8" rot="0.0 0.0 0.0" size="381 10 3" color="0.0 0 1.0"/>
+		<voxbox id_="2097476608" name="pierfloor" pos="-9.6 -19.6 -3.8" rot="0.0 0.0 0.0" size="256 256 370" color="0.34 0.28 0.22"/>
+		<instance id_="2009718528" pos="10.1 5.7 -13.7" rot="0.0 90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
+		<group id_="415064832" open_="true" name="measurements" pos="-1.1 5.8 15.8" layer="measurements">
+			<voxbox id_="1795664896" name="carmeasurement" pos="8.9 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1049492032" name="carmeasurement" pos="3.1 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1440634752" name="carmeasurement" pos="-2.7 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1443059712" name="carmeasurement" pos="-8.5 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1944702848" name="carmeasurement" pos="-13.3 0.0 15.4" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="2047535104" name="carmeasurement" pos="-13.3 0.0 12.9" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1925761792" name="carmeasurement" pos="-13.3 0.0 7.9" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="469856256" name="carmeasurement" pos="-13.3 0.0 10.4" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="2081616000" name="carmeasurement" pos="-13.3 0.0 0.4" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="983886464" name="carmeasurement" pos="-13.3 0.0 -2.1" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="408379744" name="carmeasurement" pos="-13.3 0.0 2.9" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1177294976" name="carmeasurement" pos="-13.3 0.0 5.4" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="167061456" name="carmeasurement" pos="-13.3 0.0 -19.6" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1388923648" name="carmeasurement" pos="-13.3 0.0 -17.1" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="680174144" name="carmeasurement" pos="-13.3 0.0 -14.6" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1904592384" name="carmeasurement" pos="-13.3 0.0 -12.1" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1728158720" name="carmeasurement" pos="-13.3 0.0 -9.6" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1203773184" name="carmeasurement" pos="-13.3 0.0 -7.1" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="178006640" name="carmeasurement" pos="-13.3 0.0 -4.60001" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="772323328" name="playersize" pos="-6.9 0.3 12.9" rot="0.0 0.0 0.0" size="12 20 4" color="0.0 1.0 0"/>
+			<voxbox id_="548700864" name="carmeasurement" pos="14.7 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="24 13 20" color="0.96 1.0 0.0"/>
+		</group>
+		<voxbox id_="1018229440" pos="0.0 6.0 32.6" rot="0.0 0.0 0.0" size="5 22 3"/>
 	</group>
-	<layers/>
+	<layers>
+		<layer name="measurements" visible="false"/>
+	</layers>
 </scene>
 
