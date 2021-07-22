@@ -1,0 +1,4 @@
+ BLUE - temporary brushes for props to replace
+GREEN - size of the player
+WHITE - walls and houses
+YELLOW - Measurements
