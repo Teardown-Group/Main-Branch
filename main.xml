@@ -3,8 +3,8 @@
 		<script id_="380263072" file="main.lua"/>
 		<script id_="1776592768" file="sandbox.lua"/>
 	</group>
-	<group id_="807714944" name="default">
-		<spawnpoint id_="898225728" pos="-7.1 7.2 1.2" rot="0.0 180.0 0.0"/>
+	<group id_="807714944" open_="true" name="default">
+		<spawnpoint id_="898225728" pos="-0.3 7.1 44.0" rot="0.0 180.0 0.0"/>
 		<boundary id_="899143232">
 			<vertex pos="-100.0 -100.0"/>
 			<vertex pos="100.0 -100.0"/>
@@ -12,19 +12,19 @@
 			<vertex pos="-100.0 100.0"/>
 		</boundary>
 	</group>
-	<group id_="865848960" open_="true" name="scene" pos="0.0 0.0 -30.5">
+	<group id_="865848960" open_="true" name="scene" pos="0.0 0.0 -2.2">
 		<water id_="1821094400" pos="0.0 2.4 0.0"/>
-		<voxbox id_="1281503616" name="pierfloor" pos="-19.7 -19.8 -17.8" rot="0.0 0.0 0.0" size="381 256 636" color="0.34 0.34 0.34"/>
-		<voxbox id_="1092617344" name="gazebo" pos="-7.7 6.0 19.3" rot="0.0 0.0 0.0" size="111 3 111" color="0.0 0 1.0"/>
-		<voxbox id_="1408126848" name="fence" pos="-19.7 5.8 -17.8" rot="0.0 0.0 0.0" size="381 10 3" color="0.0 0 1.0"/>
-		<voxbox id_="2097476608" name="pierfloor" pos="-9.6 -19.6 -3.8" rot="0.0 0.0 0.0" size="256 256 370" color="0.34 0.28 0.22"/>
-		<voxbox id_="1018229440" open_="true" name="parking meter" pos="0.0 6.0 32.3" rot="0.0 0.0 0.0" texture="2 0.75" collide="true" prop="false" size="9 24 9" brush="MOD/vox/parking meter.vox">
+		<voxbox id_="1281503616" name="pierfloor" pos="-40.2 -19.8 -41.8" rot="0.0 0.0 0.0" size="867 256 1070" color="0.34 0.34 0.34"/>
+		<voxbox id_="1092617344" name="gazebo" pos="-12.6 6.3 19.3" rot="0.0 0.0 0.0" size="111 3 111" color="0.0 0 1.0"/>
+		<voxbox id_="1408126848" name="fence" pos="-19.7 5.8 -41.8" rot="0.0 0.0 0.0" size="381 10 3" color="0.0 0 1.0"/>
+		<voxbox id_="2097476608" hidden_="true" name="pierfloor" pos="-9.6 -19.6 -3.8" rot="0.0 0.0 0.0" size="256 256 370" color="0.34 0.28 0.22"/>
+		<voxbox id_="1018229440" open_="true" name="parking meter" pos="6.8 6.4 42.5" rot="0.0 0.0 0.0" texture="2 0.75" collide="true" prop="false" size="9 24 9" brush="MOD/vox/parking meter.vox">
 			<light id_="1025045632" tags="night" pos="0.45 1.25 0.3" rot="0.0 180.0 0.0" type="area" color="0.0 0.51 1.0" scale="2" size="0.3 0.9"/>
 		</voxbox>
-		<voxbox id_="1081147904" name="bush" pos="-2.9 6.0 31.7" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="18 35 19" brush="MOD/vox/big green bush.vox"/>
+		<voxbox id_="1081147904" name="bush" pos="-2.9 6.0 39.1" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="18 35 19" brush="MOD/vox/big green bush.vox"/>
 		<voxbox id_="637179904" name="bush" pos="-5.3 6.0 31.7" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="20 35 15" brush="MOD/vox/teardown green bush.vox"/>
 		<voxbox id_="166864832" name="bush" pos="-7.7 6.1 31.7" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="20 35 15" brush="MOD/vox/teardown pink bush.vox"/>
-		<instance id_="2009718528" pos="10.1 5.7 -13.7" rot="0.0 90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
+		<instance id_="2009718528" pos="10.1 6.9 -13.7" rot="0.0 90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
 		<group id_="415064832" open_="true" name="measurements" pos="-1.1 5.8 15.8" layer="measurements">
 			<voxbox id_="1795664896" name="carmeasurement" pos="8.9 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
 			<voxbox id_="1049492032" name="carmeasurement" pos="3.1 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
@@ -50,12 +50,15 @@
 			<instance id_="1398820224" name="vanmeasurement" pos="7.1 -0.1 16.0" rot="0.0 90.0 0.0" file="MOD/salooncar/van.xml"/>
 			<instance id_="1841673984" name="vanmeasurement" pos="12.7 -0.1 16.0" rot="0.0 90.0 0.0" file="MOD/salooncar/van.xml"/>
 		</group>
+		<voxscript id_="1640597248" pos="-43.5 4.8 -47.3" file="MOD/voxscript/ground.lua">
+			<parameters file="MOD/heightmap.png" scale="64"/>
+		</voxscript>
 	</group>
 	<group id_="938794944" open_="true" name="nighttime" layer="night">
 		<environment id_="1766368512" template="night" skybox="night.dds"/>
 	</group>
 	<layers>
-		<layer name="night" visible="true"/>
+		<layer name="night" visible="false"/>
 		<layer name="measurements" visible="false"/>
 	</layers>
 </scene>
