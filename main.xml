@@ -1,0 +1,25 @@
+<scene id_="756724864" open_="true" version="0.7.4">
+	<group id_="216609696" open_="true" name="script">
+		<script id_="380263072" file="main.lua"/>
+		<script id_="1776592768" file="sandbox.lua"/>
+	</group>
+	<group id_="807714944" open_="true" name="default">
+		<spawnpoint id_="898225728" pos="-9.1 7.2 -1.0" rot="0.0 180.0 0.0"/>
+		<boundary id_="899143232">
+			<vertex pos="-100.0 -100.0"/>
+			<vertex pos="100.0 -100.0"/>
+			<vertex pos="100.0 100.0"/>
+			<vertex pos="-100.0 100.0"/>
+		</boundary>
+	</group>
+	<group id_="865848960" open_="true" name="scene" pos="0.0 0.0 -30.5">
+		<water id_="1821094400" pos="0.0 2.4 0.0"/>
+		<voxbox id_="2097476608" name="pierfloor" pos="-19.7 -19.4 8.6" rot="0.0 0.0 0.0" size="536 256 247" color="0.34 0.28 0.22"/>
+		<voxbox id_="2044651392" name="playersize" pos="-10.0 6.2 28.7" rot="0.0 0.0 0.0" size="12 20 4" color="0.57 1.0 0.0"/>
+		<voxbox id_="1281503616" name="pierfloor" pos="-19.7 -19.8 32.8" rot="0.0 0.0 0.0" size="536 256 130" color="0.34 0.34 0.34"/>
+		<voxbox id_="1092617344" name="gazebo" pos="-10.1 6.2 18.5" rot="0.0 0.0 0.0" size="92 3 92" color="0.0 0.64 1.0"/>
+		<voxbox id_="1408126848" name="fence" pos="-19.7 6.2 8.6" rot="0.0 0.0 0.0" size="536 10 3" color="0.0 0.64 1.0"/>
+	</group>
+	<layers/>
+</scene>
+
