@@ -24,7 +24,10 @@
 		<voxbox id_="1081147904" name="bush" pos="-2.9 6.0 39.1" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="18 35 19" brush="MOD/vox/big green bush.vox"/>
 		<voxbox id_="637179904" name="bush" pos="-5.3 6.0 31.7" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="20 35 15" brush="MOD/vox/teardown green bush.vox"/>
 		<voxbox id_="166864832" name="bush" pos="-7.7 6.1 31.7" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="20 35 15" brush="MOD/vox/teardown pink bush.vox"/>
-		<instance id_="2009718528" pos="10.1 6.9 -13.7" rot="0.0 90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
+		<voxscript id_="1275146240" pos="-97.00001 4.3 -55.6" texture="5 0.43" file="MOD/voxscript/ground.lua">
+			<parameters file="MOD/voxscript/ground.png" scale="86"/>
+		</voxscript>
+		<instance id_="2009718528" pos="24.1 6.1 -6.7" rot="0.0 -90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
 		<group id_="415064832" open_="true" name="measurements" pos="-1.1 5.8 15.8" layer="measurements">
 			<voxbox id_="1795664896" name="carmeasurement" pos="8.9 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
 			<voxbox id_="1049492032" name="carmeasurement" pos="3.1 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
@@ -50,9 +53,7 @@
 			<instance id_="1398820224" name="vanmeasurement" pos="7.1 -0.1 16.0" rot="0.0 90.0 0.0" file="MOD/salooncar/van.xml"/>
 			<instance id_="1841673984" name="vanmeasurement" pos="12.7 -0.1 16.0" rot="0.0 90.0 0.0" file="MOD/salooncar/van.xml"/>
 		</group>
-		<voxscript id_="1640597248" pos="-43.5 4.8 -38.5" texture="5 0.43" file="MOD/voxscript/ground.lua">
-			<parameters file="MOD/heightmap.png" scale="64"/>
-		</voxscript>
+		<instance id_="979954048" pos="24.1 6.1 -3.6" rot="0.0 -90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
 	</group>
 	<group id_="938794944" open_="true" name="nighttime" layer="night">
 		<environment id_="1766368512" template="night" skybox="night.dds"/>
