@@ -15,19 +15,18 @@
 	<group id_="865848960" open_="true" name="scene" pos="0.0 0.0 -2.2">
 		<water id_="1821094400" pos="0.0 2.4 0.0"/>
 		<voxbox id_="1281503616" name="pierfloor" pos="-40.2 -19.8 -41.8" rot="0.0 0.0 0.0" size="867 256 1070" color="0.34 0.34 0.34"/>
-		<voxbox id_="1092617344" name="gazebo" pos="-12.6 6.3 19.3" rot="0.0 0.0 0.0" size="111 3 111" color="0.0 0 1.0"/>
 		<voxbox id_="1408126848" name="fence" pos="-19.7 5.8 -41.8" rot="0.0 0.0 0.0" size="381 10 3" color="0.0 0 1.0"/>
 		<voxbox id_="2097476608" hidden_="true" name="pierfloor" pos="-9.6 -19.6 -3.8" rot="0.0 0.0 0.0" size="256 256 370" color="0.34 0.28 0.22"/>
 		<voxbox id_="1018229440" open_="true" name="parking meter" pos="6.8 6.4 42.5" rot="0.0 0.0 0.0" texture="2 0.75" collide="true" prop="false" size="9 24 9" brush="MOD/vox/parking meter.vox">
 			<light id_="1025045632" tags="night" pos="0.45 1.25 0.3" rot="0.0 180.0 0.0" type="area" color="0.0 0.51 1.0" scale="2" size="0.3 0.9"/>
 		</voxbox>
-		<voxbox id_="1081147904" name="bush" pos="-2.9 6.0 39.1" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="18 35 19" brush="MOD/vox/big green bush.vox"/>
-		<voxbox id_="637179904" name="bush" pos="-5.3 6.0 31.7" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="20 35 15" brush="MOD/vox/teardown green bush.vox"/>
-		<voxbox id_="166864832" name="bush" pos="-7.7 6.1 31.7" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="20 35 15" brush="MOD/vox/teardown pink bush.vox"/>
+		<voxbox id_="1081147904" name="bush" pos="-2.9 6.4 39.1" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="18 35 19" brush="MOD/vox/big green bush.vox"/>
+		<voxbox id_="637179904" name="bush" pos="-5.3 6.4 39.2" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="20 35 15" brush="MOD/vox/teardown green bush.vox"/>
+		<voxbox id_="166864832" name="bush" pos="-7.7 6.4 38.9" rot="0.0 0.0 0.0" texture="2 0.2" collide="true" prop="true" size="20 35 15" brush="MOD/vox/teardown pink bush.vox"/>
 		<voxscript id_="1275146240" pos="-97.00001 4.3 -55.6" texture="5 0.43" file="MOD/voxscript/ground.lua">
 			<parameters file="MOD/voxscript/ground.png" scale="86"/>
 		</voxscript>
-		<instance id_="2009718528" pos="24.1 6.1 -6.7" rot="0.0 -90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
+		<instance id_="2009718528" pos="24.1 6.1 -6.6" rot="0.0 -90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
 		<group id_="415064832" open_="true" name="measurements" pos="-1.1 5.8 15.8" layer="measurements">
 			<voxbox id_="1795664896" name="carmeasurement" pos="8.9 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
 			<voxbox id_="1049492032" name="carmeasurement" pos="3.1 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
@@ -50,10 +49,13 @@
 			<voxbox id_="178006640" name="carmeasurement" pos="-13.3 0.0 -4.60001" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="45 13 20" color="0.96 1.0 0.0"/>
 			<voxbox id_="772323328" name="playersize" pos="-6.9 0.3 12.9" rot="0.0 0.0 0.0" size="12 20 4" color="0.0 1.0 0"/>
 			<voxbox id_="548700864" name="carmeasurement" pos="14.7 0.0 17.7" rot="0.0 0.0 0.0" desc="CAR BODY MEASUREMENT" size="24 13 20" color="0.96 1.0 0.0"/>
+			<voxbox id_="1275801600" name="gazebo" pos="-5.5 0.5 7.5" rot="0.0 0.0 0.0" size="111 3 111" color="0.0 0 1.0"/>
 			<instance id_="1398820224" name="vanmeasurement" pos="7.1 -0.1 16.0" rot="0.0 90.0 0.0" file="MOD/salooncar/van.xml"/>
 			<instance id_="1841673984" name="vanmeasurement" pos="12.7 -0.1 16.0" rot="0.0 90.0 0.0" file="MOD/salooncar/van.xml"/>
+			<voxbox id_="861457792" name="parking space" pos="22.8 0.3 -23.7" rot="0.0 0.0 0.0" size="50 14 27" color="0.96 1.0 0.0"/>
+			<voxbox id_="882758272" name="parking space" pos="22.8 0.3 -20.8" rot="0.0 0.0 0.0" size="50 14 27" color="0.96 1.0 0.0"/>
 		</group>
-		<instance id_="979954048" pos="24.1 6.1 -3.6" rot="0.0 -90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
+		<instance id_="979954048" pos="24.1 6.1 -3.7" rot="0.0 -90.0 0.0" file="MOD/salooncar/salooncar.xml"/>
 	</group>
 	<group id_="938794944" open_="true" name="nighttime" layer="night">
 		<environment id_="1766368512" template="night" skybox="night.dds"/>
