@@ -10,7 +10,7 @@ function init()
 	matGrass2 = CreateMaterial("unphysical", 0.19, 0.24, 0.17, 1, 0, 0.2)
 	matTarmac = CreateMaterial("masonry", 0.35, 0.35, 0.35, 1, 0, 0.4)
 	matTarmacTrack = CreateMaterial("masonry", 0.2, 0.2, 0.2, 1, 0, 0.3)
-	matTarmacLine = CreateMaterial("masonry", 0.6, 0.6, 0.6, 1, 0, 0.6)
+	matTarmacLine = CreateMaterial("masonry", 0.85, 0.6, 0, 1, 0, 0.6)
 	
 	LoadImage(file)
 	
