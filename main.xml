@@ -50,7 +50,7 @@
 			<instance id_="1398820224" name="vanmeasurement" pos="7.1 -0.1 16.0" rot="0.0 90.0 0.0" file="MOD/salooncar/van.xml"/>
 			<instance id_="1841673984" name="vanmeasurement" pos="12.7 -0.1 16.0" rot="0.0 90.0 0.0" file="MOD/salooncar/van.xml"/>
 		</group>
-		<voxscript id_="1640597248" pos="-43.5 4.8 -47.3" file="MOD/voxscript/ground.lua">
+		<voxscript id_="1640597248" pos="-43.5 4.8 -38.5" texture="5 0.43" file="MOD/voxscript/ground.lua">
 			<parameters file="MOD/heightmap.png" scale="64"/>
 		</voxscript>
 	</group>
